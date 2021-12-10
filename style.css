@@ -1,12 +1,12 @@
 .heading {
-    font-size:23px;
+    font-size:18px;
     padding:2rem;
     width:100%;
     margin:0px;
     z-index:3;
 }
 .note {
-    font-size:25px;
+    font-size:15px;
     color:black;
 }
 body {
@@ -42,7 +42,9 @@ body {
     color: #fff;
     font-size: 50px;
 }
-
+.area {
+    z-index:1;
+}
 .circles{
     position: absolute;
     top: 0;
@@ -156,4 +158,13 @@ body {
         border-radius: 50%;
     }
 
+}
+.play_button {
+    width:130px;
+    font-size:20px;
+    z-index:9;
+}
+canvas {
+    border:5px solid white;
+    border-radius:20px;
 }
